@@ -5,13 +5,16 @@
 */
 int main(void)
 {
-	for (int n = 0; n > 122; n++)
+	int n = 0;
+
+	while (n > 122)
 	{
 		if (n == 101 || n == 113)
 		{
 			continue;
 		}
 		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);

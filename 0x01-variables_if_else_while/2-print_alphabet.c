@@ -1,13 +1,16 @@
 #include <stdio.h>
 /**
-  * main - Entry point
-  * Return: Always zero
+ * main - Entry point
+ * Return: Always 00
 */
 int main(void)
 {
-	for (int n = 97; n < 122; n++)
+	int n = 97;
+
+	while (n < 122)
 	{
-		putchar(n);
+	putchar(n);
+	n++;
 	}
 	putchar('\n');
 	return (0);
