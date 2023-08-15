@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  * jack_baue - Entry point
+  * jack_bauer Entry point
   * Return: time
   */
-void jack_baue(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
