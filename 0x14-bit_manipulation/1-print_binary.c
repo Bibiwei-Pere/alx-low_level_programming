@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * print_binary - converts the binary number to it's decimal equivalent
+ * print_binary - Entry point
  * @n: num
  */
 void print_binary(unsigned long int n)
@@ -11,6 +12,7 @@ void print_binary(unsigned long int n)
 	for (i = 63; i >= 0; i--)
 	{
 		current = n >> i;
+
 		if (current & 1)
 		{
 			_putchar('1');
